@@ -1,0 +1,18 @@
+﻿<mah:MetroWindow x:Class="GiveMeWin10Context.MainWindow"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GiveMeWin10Context"
+        mc:Ignorable="d"
+        Title="GiveMeWin10Context" Height="233" Width="376" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="buttonDoChanges" Content="Bring it back!" HorizontalAlignment="Center" VerticalAlignment="Center" Height="85" Width="144" Click="buttonDoChanges_Click"/>
+        <Label Content="Will change the context menu from windows 11 to 10." HorizontalAlignment="Center" Margin="0,21,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="buttonRevertChanges" Content="Revert changes" HorizontalAlignment="Center" Margin="0,156,0,0" VerticalAlignment="Top" Width="144" IsEnabled="False" Click="buttonRevertChanges_Click"/>
+        <Label Content="v1.0.0" HorizontalAlignment="Left" Margin="326,176,0,0" VerticalAlignment="Top"/>
+        <Label Content="By naits1" HorizontalAlignment="Left" Margin="10,176,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</mah:MetroWindow>
